@@ -1,4 +1,4 @@
-package com.tdl.api.web.dto.kakao;
+package com.tdl.api.model.social;
 
 import lombok.Getter;
 import lombok.Setter;
