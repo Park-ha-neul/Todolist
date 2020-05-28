@@ -14,7 +14,12 @@
     <span class = "TDL">TDL</span>
     <span class = "text-faded">'TDL'은 캘린더를 통해<br/>
 		일정관리 및 디데이를 설정할 수 있는 사이트입니다.</span>
-    <a class="btn btn-primary btn-xl js-scroll-trigger pch" role="button" href="#services">Getting started</a>
+    <a class="btn btn-primary btn-xl js-scroll-trigger pch" role="button" href="popupKakaoLogin()">Getting started</a>
+    <script>
+        function popupKakaoLogin() {
+        window.open('${loginUrl}', 'popupKakaoLogin',
+        'width=700, height=500, scrollbars=0, toolbar=0, menubar=no')}
+    </script>
 
 </div>
 <script src="/js/bg.js"></script>
