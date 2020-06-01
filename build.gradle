@@ -27,13 +27,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 
-	/*add*/
-	implementation 'org.springframework.boot:spring-boot-starter-security'
-	implementation 'org.springframework.boot:spring-boot-starter-actuator'
-	implementation 'io.jsonwebtoken:jjwt:0.9.1'
-	implementation 'io.springfox:springfox-swagger2:2.6.1'
-	implementation 'io.springfox:springfox-swagger-ui:2.6.1'
-	runtimeOnly 'com.h2database:h2'
+
 
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'mysql:mysql-connector-java'
@@ -47,6 +41,12 @@ dependencies {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
 	compile('org.springframework.session:spring-session-jdbc')
+
+	/*google*/
+	compile('org.springframework.boot:spring-boot-starter-oauth2-client')
+
+	compile('org.mariadb.jdbc:mariadb-java-client')
+
 }
 
 test {
