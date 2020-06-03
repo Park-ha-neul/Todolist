@@ -32,8 +32,6 @@ dependencies {
 	compile('org.projectlombok:lombok')
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 
-
-
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'mysql:mysql-connector-java'
 	compile('org.apache.tomcat.embed:tomcat-embed-jasper')
@@ -46,8 +44,8 @@ dependencies {
 	}
 	compile('org.springframework.session:spring-session-jdbc')
 
-	/*google*/
-	compile('org.springframework.boot:spring-boot-starter-oauth2-client')
+	//gson
+	compile('com.google.code.gson:gson:2.8.6')
 
 	compile('org.mariadb.jdbc:mariadb-java-client')
 
